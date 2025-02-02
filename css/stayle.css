@@ -1,0 +1,598 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* بدايه الصفحه الرئيسيه */
+
+.nav{
+    
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 20px ;
+ width: 100%;
+ 
+ }
+
+.nav img {
+width: 7rem;
+}
+
+
+.nav-a a {
+    text-decoration: none;
+    cursor: pointer;
+   
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.nav-a a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/تصميم\ بدون\ عنوان\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+.home img {
+    width: 40rem;
+    margin-top: 50vh;
+}
+.about {
+    padding-top: 70px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.about  h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10vh;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+
+.universities1{
+    width: 100%;
+    text-align: center;
+}
+
+.universities1 a {
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+color: rgb(0, 0, 0);
+padding: 10vh 10vh;
+border-radius: 10px;
+border: 1px rgb(0, 0, 0) solid;
+font-size: 30px;
+font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-shadow: 0px 0px 15px  black;
+    transition: .5s;
+}
+
+.universities1 a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.informion{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height: 70vh;
+    width: 100%;
+}
+
+.informion1 h2 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.informion1 input{
+margin-bottom: 2vh;
+padding-right: 10vh;
+padding-left: 1vh;
+padding-bottom: 1vh ;
+padding-top: 1vh ;
+
+}
+
+.informion1 :nth-child(3){
+    padding-bottom: 20vh;
+}
+.informion1 button {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.informion2 h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.informion2 p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 2vh;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.footer-area {
+    background-color: rgb(255, 255, 255); 
+    width: 100%;
+    height: 50vh;
+    display: flex; 
+    justify-content:center; 
+    align-items: center;
+}
+
+.container {
+
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   display: flex; 
+   justify-content: space-around; 
+   align-items: start;
+}
+.container h2 {
+    margin-bottom: 20px;
+  
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.container a {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;  
+    transition: 0.5s; 
+
+
+}
+
+.container a:hover {
+    color: rgb(0, 0, 0);
+    background: none;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+.footer-area2 img {
+    width: 20rem;
+ 
+}
+
+.footer-area3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-area-bottom{
+    color: white;
+   background-color: rgb(0, 0, 0); 
+   border-top: 1px white solid;
+   padding: 1vh 0;
+}
+
+.icon i{
+    margin-left: 20px;
+}
+
+/* النهاية */
+
+
+
+/* صفحه الجامعات و المعاهد */
+
+.home3{
+    height: auto;
+    background-image: url(../img/تصميم\ بدون\ عنوان\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home3 h1 {
+   padding-top: 20vh;
+    height: vh;
+    color: white;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 5vh;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.un{
+    height:auto;
+    gap: 5vh;
+    padding-left: 2vh;
+}
+.un1{
+    
+border-radius:20px ;
+    width: auto;
+   min-height: 33vh;
+background-color: white;
+font-family: "Noto Kufi Arabic", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+}
+
+
+.un1 h4{
+    margin-top: 2vh;
+}
+.un1 img {
+    width: 18rem;
+}
+
+.un1 a{
+    margin-top: 2vh;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 10px;
+    padding: 5px 80px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.un1 a:hover {
+   background-color: black;
+    border: 1px rgb(255, 255, 255) solid;
+ 
+    color: rgb(255, 255, 255);
+}
+
+
+
+.form {
+padding: 0 4vh;
+    padding-top: 20vh;
+    background-image: url(../img/تصميم\ بدون\ عنوان\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh ;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.contact{
+padding-top: 10vh;
+padding-bottom: 10vh;
+
+}
+.form h1 {
+    padding-top: 5vh;
+    color: white;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 5vh;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.form img {
+    width: 15rem;
+    border-radius: 20px;
+}
+.contact a {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.644);
+    padding: 2vh 50px;
+    border: 1px white solid;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.contact a:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact h4{
+    color: white;
+}
+.rate{
+    min-height: 50vh ;
+}
+.rate1 img{
+border-radius: 100px;
+}
+
+.rate1 p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+@media (max-width:375px) {
+    body{
+        margin: 0;
+    }
+    nav{   
+        margin: 0;
+        width: 100%;
+    }
+    .home img {
+        width: 20rem;
+        margin-top: 20px;
+    }
+    .home3 h1 {
+        font-size: 80px;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+
+    }
+    .un1{
+        padding: 5vh 1vh;
+    }
+    .footer-area{
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:430px){
+    nav{   
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+
+    }
+    .un1{
+        padding: 5vh 1vh;
+    }
+    .home img {
+        width: 20rem;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:414px) {
+    nav{ 
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+    }
+    .un1{
+        padding: 5vh 1vh;  
+    }
+    .home img {
+        width: 20rem;
+        margin-top: 20px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:430px) {
+    nav{  
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+    }
+    .un1{
+        padding: 5vh 1vh; 
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width:540px){
+    .home img {
+        width: 20rem;
+        margin-top: 20px;
+    }
+}
+@media (max-width:360px) {
+    body{
+        margin: 0;
+    }
+    .home3 h1 {
+        font-size: 90px;
+    }
+    nav{ 
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+    }
+    .un1{
+        padding: 5vh 1vh; 
+    }
+
+}
+@media (max-width:768px) {
+    nav{ 
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+    }
+    .un1{
+        padding: 5vh 1vh; 
+    }
+}
+
+@media (max-width:820) {
+    nav{ 
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+    }
+    .un1{
+        padding: 5vh 1vh;
+    }
+
+}
+
+
+
+@media (max-width:1024px) {
+    nav{ 
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;  
+    }
+    .un1{
+        padding: 5vh 1vh; 
+    }
+    .home img {
+        width: 20rem;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width:1280px) {
+    nav{ 
+        margin: 0;
+        width: 100%;
+    }
+    .un{
+        height: auto;
+        gap: 5vh;
+    }
+    .un1{
+        padding: 5vh 1vh;  
+    }
+    .home img {
+      
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:1500px) {
+ .un1{
+    padding: 2vh 1vh;
+ }
+}
